@@ -1,0 +1,57 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    row-gap: 60px;
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+    border-radius: 15px;
+}
+#home>h1{
+    margin-top: 40px;
+    font-size: 45px;
+    color: #010617;
+}
+#name{
+    background:linear-gradient(to right, #1230AE, #6C48C5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.video{
+    width: 100%;
+}
+.video-frame{
+    width: 100%;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.description>input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #1230AE, #6C48C5);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px ;
+    width: 100px;
+}
+.logout{
+    position: absolute;
+    right: 13%;
+    top: 6%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #1230AE, #6C48C5);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px ;
+    width: 100px;
+}
